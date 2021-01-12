@@ -19,33 +19,106 @@ ul {
   margin: 0;
   padding: 0;
 }
+    
+
+
 #content{
     position: absolute;
-    top: 340px;
+    top: 300px;
     left: 450px;
     width: 600px;
     height: 100x;
+    
+    padding: 5px;
+    border-radius: 10%;
+    
+    
+
 }
  button{
-    margin-top: -10%;
-    margin-left: 40%;
-    width: 150px;
-    height: 200x;
+    position: relative;
+    top: -50px;
+    left: 600px;
+    width: 200px;
+    height: 30px;
+background-color: white;
 }
+li {
+  float: left;
+}
+a {
+  display: block;
+  padding: 15px;
+  background-color: #dddddd;
+  color: grey;
+}
+footer{
+    position: absolute;
+    top: 88%;
+    left: 0%;
+
+}
+header{
+    position: absolute;
+    top: 0%;
+    left: 81%;
+}
+.bottom{
+    position: relative;
+    top: 320px;
+    left: 85%;
+
+}
+p{
+    background-color: #dddddd;
+  color: grey;
+  width: 40px;
+}
+
+
+
+
+
+
  </style> 
+ <list>
+
+ <header>
+    
  <ul>
-    <li><a href="default.asp">Gmail</a></li>
-    <li><a href="news.asp">Images</a></li>
+    <li><a href="Gmail.asp">Gmail</a></li>
+    <li><a href="Images.asp">Images</a></li>
     <li><a href="contact.asp">Apps</a></li>
-    <li><a href="about.asp">Account</a></li>            
-<div>
+    <li><a href="Account.asp">Account</a></li>        
+</header>    
+</list>
+    <div>
 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
 </div>
 <label> 
 
     <input  id="content"  type="text" name="search"> 
-    <button   Search > Google Search</button>
+    <button   name="Search" > Google Search</button>
+    <button name="I lucky"> I'm feeling lucky</button>
 
 
 </label>
+
 </body>
+<footer>
+    <p>Brazil</p>
+    <ul>
+        <li><a href="Gmail.asp">Advertising</a></li>
+        <li><a href="Images.asp">Business</a></li>
+        <li><a href="Apps.asp">About</a></li>
+        <li><a href="Account.asp">How search works</a></li>   
+    </ul>
+    
+</footer>
+
+<ul class="bottom"
+>
+    <li><a href="terms.asp">Privacy</a></li>
+    <li><a href="terms.asp">Terms</a></li>
+    <li><a href="Apps.asp">Services</a></li>  
+</ul>
